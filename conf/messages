@@ -1,0 +1,24 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+validation.required=Required
+validation.object=
+
+
+user.fullName=Full name
+user.birthDate=Birthdate
+user.email=E-mail
+user.password=password
+
+
+users=Users
+fullName=Full name
+birthdate=Birthdate
+email=E-mail
+edit=Edit
+delete=Delete
+newUser=New user
+password=Password
+
+secretStuff=Secret stuff

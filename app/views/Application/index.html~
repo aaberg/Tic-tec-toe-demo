@@ -1,0 +1,4 @@
+#{extends 'main.html' /}
+#{set title:'tic tec toe' /}
+
+<h1>Hello ${foo}!</h1>

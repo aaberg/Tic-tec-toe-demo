@@ -1,0 +1,24 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+validation.required=Obligatorisk
+validation.object=
+
+
+user.fullName=Fullt navn
+user.birthDate=Fødselsdato
+user.email=E-post
+user.password=passord
+
+
+users=Brukere
+fullName=Fullt navn
+birthdate=Fødselsdato
+email=E-post
+edit=Rediger
+delete=Slett
+newUser=Ny bruker
+password=Passord
+
+secretStuff=Hemmelige saker

@@ -1,0 +1,31 @@
+#{extends 'main.html'/}
+
+#{if user}
+<img src="@{Users.gravatar(user?.email)}" alt="gravatar" />
+#{/if}
+
+<form action="@{Users.save}" method="post">
+
+    <input type="hidden" name="user.id" value="${user?.id}"/>
+
+    <div>&{'fullName'}:</div>
+    <input type="text" name="user.fullName" value="${flash['user.fullName'] ?: user?.fullName}" />
+    <span class="error">#{error 'user.fullName'/}</span>
+
+    <div>&{'birthDate'}:</div>
+    <input type="text" name="user.birthDate" value="${flash['user.birthDate'] ?: user?.birthDate?.format()}" />
+    <span class="error">#{error 'user.birthDate'/}</span>
+
+    <div>&{'email'}:</div>
+    <input type="text" name="user.email" value="${flash['user.email'] ?: user?.email}" />
+    <span class="error">#{error 'user.email'/}</span>
+
+    <div>&{'password'}:</div>
+    <input type="password" name="user.password"/>
+    <span class="error">#{error 'user.password'/}</span>
+
+    <div>
+        <input type="submit" value="submit" />
+    </div>
+
+</form>
