@@ -1,7 +1,7 @@
 Tic Tec Toe demo application
 =========================
 
-This is a play! framework demo application, written during a 3 hour live coding session at the [Webstep](http://webstep.no) Tic Tec Toe arrangement 20. october 2011.
+This is a play! framework demo application, written during a 3 hour live coding session at the [Webstep](http://webstep.no) Tic Tec Toe arrangement 20th october 2011.
 Check out the demo [here](http://demo.aabergs.net)
 
 Endringer
